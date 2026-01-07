@@ -1,0 +1,10 @@
+./make_vendor_tarball.sh
+./make_tarball.sh
+./git_version_gen.sh
+./release.sh
+./check.sh
+./make_macos_pkg.sh
+./release-notes.sh
+./update-dependencies.sh
+./mac_notarize.sh
+./version-available-in-debian.sh

@@ -1,0 +1,4 @@
+./conf.py
+./fish_synopsis.py
+./python_docs_theme/__init__.py
+./fish_indent_lexer.py

@@ -1,5 +1,23 @@
 {
-  "rules": [
+    "rules": [
+    {
+	    "id" : "07kwRDfGEGxIqlUsk3232" 
+	    "title: repo organization:",
+	    "category": "required before merge",
+	    "content" : "to_implement/  build/  include/  lib/  docs/  src/  bin/ <--- the binary or binaries i will use, called sane things  Makefile or build.sh or pf task file (something to build that builds all the work)  QUICKSTART.md  README.md  VERSION. Additional directories may be added in an ORGANIZED manner if they do not fit any of these categories. Subfolders should be equally as organized in a very similar way as well."
+    }
+    {
+      "id": "07kwRDfGEGxIqlUskCf32",
+      "title": "pf tool usage",
+      "category": "tools",
+	"content": "if you do not have access to the pf-web-poly-compile-helper-runner repo at P4x-ng/pf-web-poly-compile-helper-runner on github or code at /home/punk/Projects/AlexRepos/pf-web-poly-compile-helper-runner/ you may skip this task. Otherwise, if there are any broken pf tasks, fix them OR fix the grammar in the repo, overall we should be supporting any intuitively written tasks. Rule id 07kwRDfGEGxIqlUskCf32 still applies to all."
+    },	
+    {
+      "id": "07kwRDfGEGxIqlUskCf32",
+      "title": "pf tool usage",
+      "category": "tools",
+	"content": "Code cleanliness rules:  docs go in docs/ please, the repo should be fairly flat, example of good: ```src/ include/ build/ bin/ lib/ py/ main.c main.py```   example of bad:    `src/ src-all/src/prod bin/src/prod build/build/src` in other words, not too many embedded dirs, dirs should have unique names, if there are embedded dirs it should be because different components are required and have separate builds, in which there should be one unified build. But overall, keep things flat, if things need to be integrated integrate them. Also, check all pf tasks and fix them OR remove them if they are no longer relevant."
+    },
     {
       "id": "07kwRDfGEGxIqlUskCfmp8",
       "title": "pf tool usage",
@@ -14,7 +32,7 @@
         "NO DEMO CODE mixed with production",
         "NO CALCULATION BASED EMULATIONS",
         "Demo code should be clearly marked and put in a demo/ directory",
-        "Document and be well organized"
+        "Document and be well organized. In a docs/ directory with categories of subdirs please."
       ]
     },
     {
@@ -225,8 +243,7 @@
       "id": "zob0ECwpEWHONzcGVLCeGj",
       "title": "Switch to pf",
       "category": "build-tools",
-      "deprecated": "Justfiles replaced by pf.py",
-      "content": "Switch to pf"
+      "content": "ALL PF FILES MUST BE TESTED BEFORE YOU STOP WORKING. Every entry.",
     }
   ],
   "categories": {
